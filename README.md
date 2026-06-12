@@ -1,3 +1,12 @@
+---
+title: RAG Document Chatbot
+emoji: 📄
+colorFrom: indigo
+colorTo: blue
+sdk: streamlit
+app_file: app.py
+---
+
 # 📑 RAG Document Chatbot (RAG Application)
 
 An offline-capable, interactive Retrieval-Augmented Generation (RAG) chatbot that allows you to upload any PDF document and ask questions about its content. This application uses **LangChain** for orchestration, **Groq (Llama 3.3 70B)** for ultra-fast inference, and local **Hugging Face BGE Embeddings** for precise document retrieval.
