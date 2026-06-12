@@ -13,6 +13,6 @@ jobs:
       - uses: huggingface/hub-sync@v0.1.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: https://huggingface.co/spaces/Lual13012/rag-document-chatbot-app
+          huggingface_repo_id: Lual13012/rag-document-chatbot-app
           hf_token: ${{ secrets.HF_TOKEN }}
           space_sdk: streamlit
