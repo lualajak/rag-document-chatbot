@@ -1,0 +1,17 @@
+# Credentials and Environment variables
+.env
+
+# Local Vector Databases & Caching
+chroma_db/
+.chroma/
+__pycache__/
+*.pyc
+
+# Virtual environments (if you use them)
+venv/
+.venv/
+env/
+
+# Operating system files
+.DS_Store
+Thumbs.db
